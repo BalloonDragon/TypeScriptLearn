@@ -1,0 +1,23 @@
+{
+  "name": "typescript-learning-examples",
+  "version": "1.0.0",
+  "description": "TypeScript学习代码示例，适合新手入门",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "learning",
+    "examples",
+    "tutorial"
+  ],
+  "author": "TypeScript Learner",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
